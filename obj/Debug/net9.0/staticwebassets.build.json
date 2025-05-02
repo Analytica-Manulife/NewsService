@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YTiTSuuxx+UByROPAIf0AHfY30HGoad1RJgKCebb45M=",
+  "Source": "FinanceNewsService",
+  "BasePath": "_content/FinanceNewsService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
