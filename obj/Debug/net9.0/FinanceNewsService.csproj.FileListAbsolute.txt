@@ -82,3 +82,10 @@
 /Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/DotNetEnv.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Sprache.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/obj/Debug/net9.0/FinanceNewsService.sourcelink.json
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Extensions.Logging.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Sinks.Console.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Sinks.File.dll

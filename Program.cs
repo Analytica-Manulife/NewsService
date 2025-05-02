@@ -2,11 +2,17 @@ using FinanceNewsService.Data;
 using FinanceNewsService.INewsService;
 using FinanceNewsService.Services;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()  
+    .WriteTo.File("logs/app.log", rollingInterval: RollingInterval.Day)  
+    .CreateLogger();
+
 builder.Logging.ClearProviders();
-builder.Logging.AddConsole();
+builder.Logging.AddSerilog();  
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -20,6 +26,7 @@ builder.Services.AddScoped<INewsService, NewsService>();
 var app = builder.Build();
 
 var logger = app.Services.GetRequiredService<ILogger<Program>>();
+
 logger.LogInformation("Application is starting up.");
 
 if (app.Environment.IsDevelopment())

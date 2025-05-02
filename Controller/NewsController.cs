@@ -88,5 +88,26 @@ namespace FinanceNewsService.Controllers
             _logger.LogInformation("Article with ID {Id} successfully deleted.", id);
             return NoContent();
         }
+
+        [HttpGet("search/{searchTerm}")]
+        public async Task<ActionResult<IEnumerable<NewsArticle>>> Search(string searchTerm)
+        {
+            if (string.IsNullOrWhiteSpace(searchTerm))
+            {
+                _logger.LogWarning("Search term is empty or invalid.");
+                return BadRequest("Search term cannot be empty.");
+            }
+
+            var articles = await _newsService.SearchAsync(searchTerm);
+
+            if (articles == null || !articles.Any())
+            {
+                _logger.LogInformation("No articles found matching the search term: {SearchTerm}.", searchTerm);
+                return NotFound("No articles found matching the given search term.");
+            }
+
+            return Ok(articles);
+        }
+
     }
 }

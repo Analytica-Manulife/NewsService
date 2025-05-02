@@ -9,4 +9,5 @@ public interface INewsService
     Task AddAsync(NewsArticle newsArticle);
     Task UpdateAsync(NewsArticle newsArticle);
     Task DeleteAsync(int id);
+    Task<IEnumerable<NewsArticle>> SearchAsync(string searchTerm);
 }

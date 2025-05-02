@@ -1,0 +1,29 @@
+# Ignore appsettings.json files
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Ignore logger files (if you're using file-based logging)
+logs/
+log/
+*.log
+
+# Ignore other sensitive or unnecessary files/folders
+*.env
+*.db
+*.sqlite
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore user-specific files (e.g., Visual Studio)
+.vs/
+.idea/
+.vscode/
+
+# Ignore other platform-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates

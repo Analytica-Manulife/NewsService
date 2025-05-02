@@ -81,5 +81,19 @@ namespace FinanceNewsService.Services
             await _context.SaveChangesAsync();
             _logger.LogInformation("Article with ID {Id} deleted successfully.", id);
         }
+        public async Task<IEnumerable<NewsArticle>> SearchAsync(string searchTerm)
+        {
+            _logger.LogInformation("Searching for articles matching: {SearchTerm}.", searchTerm);
+            var lowerCaseSearchTerm = searchTerm.ToLower();
+            var articles = await _context.NewsArticles
+                .Where(a => a.Headline.ToLower().Contains(searchTerm) 
+                            || a.Content.ToLower().Contains(searchTerm) 
+                            || a.Company.ToLower().Contains(searchTerm))
+                .ToListAsync();
+    
+            _logger.LogInformation("Found {Count} articles matching the search term.", articles.Count);
+            return articles;
+        }
+
     }
 }
