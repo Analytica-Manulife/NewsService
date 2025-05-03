@@ -12,6 +12,7 @@ log/
 *.env
 *.db
 *.sqlite
+*.json
 
 # Ignore build artifacts
 bin/
