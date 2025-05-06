@@ -18,7 +18,7 @@ namespace FinanceNewsService.Controllers
             _logger = logger;
         }
         
-        [HttpGet]
+        [HttpGet("status")]
         public IActionResult Get() => Ok("Finance News Service is running");
         
         [HttpGet]
