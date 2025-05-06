@@ -89,3 +89,9 @@
 /Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Extensions.Logging.dll
 /Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Sinks.Console.dll
 /Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Sinks.File.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.AspNetCore.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Extensions.Hosting.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Formatting.Compact.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Settings.Configuration.dll
+/Users/yashmehta/AnalyticaManulife/FinanceNewsService/FinanceNewsService/FinanceNewsService/bin/Debug/net9.0/Serilog.Sinks.Debug.dll

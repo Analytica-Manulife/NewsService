@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 namespace FinanceNewsService.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("news/[controller]")]
     public class NewsController : ControllerBase
     {
         private readonly INewsService.INewsService _newsService;
@@ -17,7 +17,10 @@ namespace FinanceNewsService.Controllers
             _newsService = newsService;
             _logger = logger;
         }
-
+        
+        [HttpGet]
+        public IActionResult Get() => Ok("Finance News Service is running");
+        
         [HttpGet]
         public async Task<ActionResult<IEnumerable<NewsArticle>>> GetAll()
         {
